@@ -39,8 +39,8 @@ Built a NFT preview card component using HTML & CSS to get a hang of HTML & CSS.
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-qr-code-using-html-and-css-ByzEWgFfq](https://www.frontendmentor.io/solutions/responsive-qr-code-using-html-and-css-ByzEWgFfq)
-- Live Site URL: [https://mohit1397.github.io/qr-code-card/](https://mohit1397.github.io/qr-code-card/)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-BynIvt7m9](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-BynIvt7m9)
+- Live Site URL: [https://mohit1397.github.io/NFT-Card-Hover-Effect/](https://mohit1397.github.io/NFT-Card-Hover-Effect/)
 
 ## My process
 
