@@ -1,0 +1,146 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+hr {
+    border: 0.2rem solid hsl(215, 32%, 27%);
+    border-bottom: none;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    margin: 10px auto;
+}
+
+.hero-card {
+    background-color: hsl(216, 50%, 16%);
+    width: 23%;
+    margin: 5% auto;
+    padding: 1.2%;
+    border-radius: 0.8rem;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.view-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: hsl(178, 100%, 50%, 50%);
+    opacity: 0;
+    display: flex;
+    transform: translate(-50%,-50%);
+
+}
+
+.card-view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%,-50%);
+}
+
+.view-overlay:hover {
+    opacity: 1;
+}
+
+.card-image:hover {
+    color: hsl(178, 100%, 50%);
+
+}
+
+.card-headline {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-weight: 500;
+}
+
+.card-headline:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.icon-eth{
+    position: relative;
+    top: 3px;
+}
+
+.eth-text{
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+}
+
+.icon-clock{
+    position: relative;
+    top: 3px;
+    margin: 0 0 0 40%;
+}
+
+.timer-text{
+    display: inline-block;
+    left: 100%;
+}
+
+.image-avatar{
+    float: left;
+    width: 12%;
+    margin-right: 10px;
+}
+
+.credits {
+    padding-top: 2px;
+    padding-bottom: 8px;
+}
+
+span {
+    margin: 1%;
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);  
+}
+
+.attribution {
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}   
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+    .hero-card {
+        width: 82%;
+        margin: 5% auto;
+        padding: 5%;
+        border-radius: 0.8rem;
+    }
+
+    .icon-clock{
+        position: relative;
+        margin: 0 0 0 38%;
+    }
+
+    .attribution {
+        padding-top: 12%;
+    }
+}
